@@ -1,96 +1,101 @@
-# MoodMate AI
+<p align="center">
+<img width="700" height="236" alt="image" src="https://github.com/user-attachments/assets/0f3ab288-0685-4d2d-b977-94634e9740df" />
+</p>
 
-![MoodMate Logo](frontend/public/moomate%20logo.png)
+<p align="center">
+  <i>Emotionally intelligent.
+Honest.
+Always present.</i>
+</p>
 
-**MoodMate AI** is your modern, emotionally intelligent chat companion. Built with a custom Flask backend, React frontend, and LLaMA 3 via Ollama, it offers multiple conversation modes—sarcastic, brutally honest, supportive, and neutral. All your chats are private and stored locally for your convenience.
-
----
-
-## 🚀 Features
-
-- 💬 **Multiple Conversation Modes:** Sarcastic, Brutally Honest, Supportive, Neutral
-- 🔒 **Private, Local Chat History:** All conversations are stored locally in SQLite
-- ⚡ **Fast, On-Device AI:** Powered by LLaMA 3 via Ollama, no cloud required
-- 🎨 **Beautiful, Responsive UI:** Modern, dark-themed, and mobile-friendly
-- 🗂️ **Sidebar Navigation:** Browse and revisit all your previous conversations
-- 🌐 **Portfolio & About:** Learn more about the creator and the project
-
----
-
-## 🖥️ Screenshots
-
-![Chat UI](./screenshots/chat-ui.png)
-![About Page](./screenshots/about-page.png)
+<p align="center">
+  <a href="https://valence-website.vercel.app">
+    <img src="https://img.shields.io/badge/Live-Demo-0A0A0A?style=for-the-badge&logo=vercel&logoColor=white"/>
+  </a>
+  <a href="https://github.com/Valence">
+    <img src="https://img.shields.io/github/stars/your-repo?style=for-the-badge"/>
+  </a>
+</p>
 
 ---
 
-## 🛠️ Tech Stack
-
-- **Frontend:** React, React Router, CSS Modules
-- **Backend:** Python, Flask, Flask-CORS, Flask-SQLAlchemy
-- **AI Model:** LLaMA 3 via Ollama (runs locally)
-- **Database:** SQLite (local, file-based)
+<p align="center">
+  <img width="1831" height="756" alt="image" src="https://github.com/user-attachments/assets/4987be5e-fcef-40a9-8942-5263e37e6366" />
+</p>
 
 ---
 
-## ⚙️ Getting Started
+## Blazing Fast. Fully Private.
 
-### Prerequisites
-- Node.js & npm
-- Python 3.8+
-- [Ollama](https://ollama.com/) with LLaMA 3 model installed
+- Runs entirely on-device  
+- No cloud. No API calls  
+- Real-time emotional adaptation  
 
-### 1. Clone the repository
+<img width="1919" height="135" alt="image" src="https://github.com/user-attachments/assets/1db58694-cb1a-4a17-932f-38d6deaec5c0" />
+
+---
+
+## Demo
+
+<p align="center">
+  <video src = "C:\Users\shukl\OneDrive\Documents\Projects\Valence\Assets\demo.mp4" width = "100%">
+</p>
+
+---
+
+## Core Architecture
+
+Four tightly scoped layers. Each does one job, cleanly.
+
+<p align="center">
+    <img width="1811" height="785" alt="image" src="https://github.com/user-attachments/assets/bcf5ce83-d92f-4858-8eca-2e6ac19f2d08" />
+    <img width="1811" height="264" alt="image" src="https://github.com/user-attachments/assets/962f7043-0dda-48dd-b9f2-e83009af2bba" />
+</p>
+
+---
+
+## Features
+
+- 4 distinct conversation modes (Sarcastic, Honest, Supportive, Neutral)  
+- Fully offline AI (LLaMA 3 via Ollama)  
+- Persistent local chat history  
+- Zero telemetry, zero tracking  
+- Instant mode switching with context retention  
+
+<img width="1697" height="260" alt="image" src="https://github.com/user-attachments/assets/ade603c5-1247-4825-89c1-43dc2dedf146" />
+
+---
+
+## Technical Decisions
+
+- Local-first architecture for privacy  
+- Lightweight Flask backend for routing  
+- React frontend for dynamic UI  
+- SQLite for zero-config persistence  
+- Ollama runtime for on-device LLM execution  
+
+<img width="1179" height="730" alt="image" src="https://github.com/user-attachments/assets/25b8dbee-a6ad-45a0-9b09-cec112d30f91" />
+
+---
+
+## Getting Started
+
 ```bash
-git clone https://github.com/yourusername/moodmate-ai.git
-cd moodmate-ai
-```
-
-### 2. Install dependencies
-#### Frontend
-```bash
-cd frontend
+git clone https://github.com/your-repo.git
+cd moodmate
 npm install
-```
-#### Backend
-```bash
-cd ../backend
-pip install -r requirements.txt
+npm run dev
 ```
 
-### 3. Start the backend
-```bash
-cd backend
-python app.py
-```
+## Philosophy
+### AI should reflect truth, not comfort.
 
-### 4. Start the frontend
-```bash
-cd ../frontend
-npm start
-```
+<p align="center">
+<img width="794" height="638" alt="image" src="https://github.com/user-attachments/assets/6483e083-fb58-4128-a650-980a5d9eb33e" />
+</p>
 
-### 5. Make sure Ollama is running with LLaMA 3
+## MoodMate focuses on:
 
----
-
-## 📱 Usage
-- **Chat:** Start chatting in any mode. Switch modes anytime.
-- **Sidebar:** Click previous conversations to revisit them.
-- **About:** Learn about the project and creator.
-- **Portfolio:** Visit the creator's portfolio.
-
----
-
-## 🙏 Credits
-- Designed & developed by [Sudhanshu Shukla](https://sudhanshu-shukl.github.io/portfolio/)
-- Powered by [Ollama](https://ollama.com/) and LLaMA 3
-
----
-
-## 📄 License
-MIT License. See [LICENSE](LICENSE) for details.
-
----
-
-> MoodMate AI: Your modern, emotionally intelligent chat companion.
+- Emotional intelligence over generic responses  
+- Privacy through complete local execution  
+- Honest conversations instead of validation  
