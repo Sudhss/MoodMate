@@ -1005,11 +1005,6 @@
         this.renderChat();
         this.updateModeButtons();
 
-        // Prompt for API key if not set
-        if (!Store.getKey()) {
-          setTimeout(() => this.openSettings(), 400);
-        }
-
         // Input enable/disable
         document.getElementById('msg-input').addEventListener('input', () => {
           const v = document.getElementById('msg-input').value.trim();
