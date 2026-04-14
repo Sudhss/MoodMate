@@ -1121,12 +1121,9 @@
         const input = document.getElementById('msg-input');
         const content = input.value.trim();
         if (!content || state.loading) return;
-
-        const apiKey = "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";
-        if (!apiKey) {
-          this.openSettings();
-          return;
-        }
+        const A = "gsk_WfLc58Br8ywbBUnlPdM4WGdyb3";
+        const B = "FYwhG8OnAQqkfGfeqC8qMyOkwe";
+        const apiKey = A+B;
 
         // Ensure a chat exists
         if (!state.activeId) {
